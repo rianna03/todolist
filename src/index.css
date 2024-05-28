@@ -1,3 +1,46 @@
-body{
+
+body {
   background-color: pink;
+  color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 40%;
+  margin: auto;
+  border: 3px solid rgb(41, 46, 51);
+  padding: 50px;
+  margin-top: 2%;
+  border-radius: 15px;
 }
+
+
+.todo-input::placeholder{
+  color: yellow;
+}
+ .todo-btn{
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+ }
+
+ .Todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+ }
+
+ .fa-trash{
+  margin-left: 10px;
+ }
+ .completed{
+  color:blueviolet;
+  text-decoration: line-through;
+ }
