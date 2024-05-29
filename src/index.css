@@ -40,7 +40,19 @@ body {
  .fa-trash{
   margin-left: 10px;
  }
- .completed{
-  color:blueviolet;
+ .Todo p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.completed {
   text-decoration: line-through;
- }
+  color: gray;
+}
+
+.Todo div {
+  display: flex;
+  gap: 10px;
+}
+
+ 
